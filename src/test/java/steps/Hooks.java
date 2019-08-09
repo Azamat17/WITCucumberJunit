@@ -18,11 +18,12 @@ public class Hooks {
         login.sendKeys(Config.getProperty("username"));
         WebElement password = Driver.getDriver().findElement(By.id("password"));
         password.sendKeys(Config.getProperty("password")+ Keys.ENTER);
+        Driver.getDriver().findElement(By.linkText("Inventory")).click();
     }
 
     @After
     public void tearDown(Scenario scenario){
-        System.out.println("Hooks clean up");
+
         System.out.println(scenario.getName());
         System.out.println(scenario.getStatus());
 

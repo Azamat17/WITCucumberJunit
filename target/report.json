@@ -3,63 +3,156 @@
     "line": 1,
     "elements": [
       {
+        "before": [
+          {
+            "result": {
+              "duration": 6106159184,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.login()"
+            }
+          }
+        ],
         "line": 4,
-        "name": "Amazon title verification",
+        "name": "Create Product Categories as a manager",
         "description": "",
-        "id": "amazon-verification;amazon-title-verification",
+        "id": "briteerp-inventory-functionality;create-product-categories-as-a-manager",
+        "after": [
+          {
+            "result": {
+              "duration": 101849844,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 4971213456,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "User is on Amazon application",
-            "match": {
-              "location": "Amazon_Steps.user_is_on_Amazon_application()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 61026232,
+              "duration": 106898163,
               "status": "passed"
             },
             "line": 6,
-            "name": "User should see Amazon in title",
+            "name": "Manager navigates to Products under Configuration and clicks",
             "match": {
-              "location": "Amazon_Steps.user_should_see_Amazon_in_title()"
+              "location": "ProductCategories_Steps.manager_navigates_to_Products_under_Configuration_and_clicks()"
             },
-            "keyword": "Then "
+            "keyword": "Given "
           },
           {
             "result": {
-              "error_message": "java.lang.AssertionError\n\tat org.junit.Assert.fail(Assert.java:86)\n\tat org.junit.Assert.fail(Assert.java:95)\n\tat steps.Amazon_Steps.user_searches_for_something(Amazon_Steps.java:25)\n\tat ✽.User searches for something(src/test/resources/features/amazon.feature:7)\n",
-              "duration": 1485357,
-              "status": "failed"
+              "duration": 83928532,
+              "status": "passed"
             },
             "line": 7,
-            "name": "User searches for something",
+            "name": "Manager clicks Products Categories",
             "match": {
-              "location": "Amazon_Steps.user_searches_for_something()"
+              "location": "ProductCategories_Steps.manager_clicks_Products_Categories()"
             },
             "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2606558838,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Manager clicks Create button",
+            "match": {
+              "location": "ProductCategories_Steps.manager_clicks_Create_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 503620638,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Manager types \"Cars\" in Category Name field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Cars\"",
+                  "offset": 14
+                }
+              ],
+              "location": "ProductCategories_Steps.manager_types_in_Category_Name_field(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 82462355,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Manager clicks Parent Category",
+            "match": {
+              "location": "ProductCategories_Steps.manager_clicks_Parent_Category()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 142299659,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Manager selects All",
+            "match": {
+              "location": "ProductCategories_Steps.manager_selects_All()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 65971083,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Manager clicks Save Button",
+            "match": {
+              "location": "ProductCategories_Steps.manager_clicks_Save_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 348039357,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Manager sees \"Cars\" as a product category name",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Cars\"",
+                  "offset": 13
+                }
+              ],
+              "location": "ProductCategories_Steps.manager_sees_as_a_product_category_name(String)"
+            },
+            "keyword": "Then "
           }
         ],
         "tags": [
           {
-            "name": "@amazon"
+            "name": "@productCategories"
           }
         ]
       }
     ],
-    "name": "Amazon verification",
+    "name": "BriteERP Inventory Functionality",
     "description": "",
-    "id": "amazon-verification",
+    "id": "briteerp-inventory-functionality",
     "keyword": "Feature",
-    "uri": "src/test/resources/features/amazon.feature",
+    "uri": "src/test/resources/features/productCategories.feature",
     "tags": []
   }
 ]
