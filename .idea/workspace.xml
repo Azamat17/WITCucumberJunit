@@ -1,27 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0e5b63e6-59b7-4a6a-b0ac-1f60d74174cc" name="Default Changelist" comment="Inventory page update">
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/WarehousesPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/steps/DeleteWarehouse_Steps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/Waits.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/warehouseManagement.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="0e5b63e6-59b7-4a6a-b0ac-1f60d74174cc" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/runners/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runners/Runner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/steps/ProductCategories_Steps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/ProductCategories_Steps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/WarehousesPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/WarehousesPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/discardScrapOrdersCreation.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/discardScrapOrdersCreation.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/productCategories.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/productCategories.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/warehouseManagement.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/warehouseManagement.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/cucumber/embedded0.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber/embedded0.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber/formatter.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber/formatter.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber/jquery-1.8.2.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber/jquery-1.8.2.min.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/cucumber/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber/report.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/report.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/report.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/WITCucumberJUnit.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/META-INF/WITCucumberJUnit.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/InventoryPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/InventoryPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/runners/Runner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/runners/Runner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/steps/DiscardScrap_Steps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/steps/DiscardScrap_Steps.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/steps/ProductCategories_Steps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/steps/ProductCategories_Steps.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -144,7 +132,14 @@
       <option name="project" value="LOCAL" />
       <updated>1565382800288</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Inventory page update">
+      <created>1565393169529</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1565393169529</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
