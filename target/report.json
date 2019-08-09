@@ -6,7 +6,7 @@
         "before": [
           {
             "result": {
-              "duration": 7307731177,
+              "duration": 7155824483,
               "status": "passed"
             },
             "match": {
@@ -21,7 +21,7 @@
         "after": [
           {
             "result": {
-              "duration": 84605847,
+              "duration": 99284130,
               "status": "passed"
             },
             "match": {
@@ -34,7 +34,7 @@
         "steps": [
           {
             "result": {
-              "duration": 178514158,
+              "duration": 179081465,
               "status": "passed"
             },
             "line": 5,
@@ -46,7 +46,7 @@
           },
           {
             "result": {
-              "duration": 2313108194,
+              "duration": 2244898412,
               "status": "passed"
             },
             "line": 6,
@@ -58,7 +58,7 @@
           },
           {
             "result": {
-              "duration": 355480417,
+              "duration": 355274164,
               "status": "passed"
             },
             "line": 7,
@@ -70,7 +70,7 @@
           },
           {
             "result": {
-              "duration": 34808339,
+              "duration": 36984204,
               "status": "passed"
             },
             "line": 8,
@@ -99,6 +99,162 @@
     "id": "briteerp-inventory-functionality",
     "keyword": "Feature",
     "uri": "src/test/resources/features/discardScrapOrdersCreation.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 6449314321,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.login()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Create Product Categories as a manager",
+        "description": "",
+        "id": "briteerp-inventory-functionality;create-product-categories-as-a-manager",
+        "after": [
+          {
+            "result": {
+              "duration": 84649457,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 88366196,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Manager navigates to Products under Configuration and clicks",
+            "match": {
+              "location": "ProductCategories_Steps.manager_navigates_to_Products_under_Configuration_and_clicks()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 86785531,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Manager clicks Products Categories",
+            "match": {
+              "location": "ProductCategories_Steps.manager_clicks_Products_Categories()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2414914667,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Manager clicks Create button",
+            "match": {
+              "location": "ProductCategories_Steps.manager_clicks_Create_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 475050873,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Manager types \"Cars\" in Category Name field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Cars\"",
+                  "offset": 14
+                }
+              ],
+              "location": "ProductCategories_Steps.manager_types_in_Category_Name_field(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 102065676,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Manager clicks Parent Category",
+            "match": {
+              "location": "ProductCategories_Steps.manager_clicks_Parent_Category()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 163813270,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Manager selects All",
+            "match": {
+              "location": "ProductCategories_Steps.manager_selects_All()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 79915380,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Manager clicks Save Button",
+            "match": {
+              "location": "ProductCategories_Steps.manager_clicks_Save_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 371566388,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Manager sees \"Cars\" as a product category name",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Cars\"",
+                  "offset": 13
+                }
+              ],
+              "location": "ProductCategories_Steps.manager_sees_as_a_product_category_name(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@productCategories"
+          }
+        ]
+      }
+    ],
+    "name": "BriteERP Inventory Functionality",
+    "description": "",
+    "id": "briteerp-inventory-functionality",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/productCategories.feature",
     "tags": []
   }
 ]
