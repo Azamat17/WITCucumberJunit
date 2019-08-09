@@ -1,0 +1,65 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Amazon title verification",
+        "description": "",
+        "id": "amazon-verification;amazon-title-verification",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4971213456,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on Amazon application",
+            "match": {
+              "location": "Amazon_Steps.user_is_on_Amazon_application()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 61026232,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User should see Amazon in title",
+            "match": {
+              "location": "Amazon_Steps.user_should_see_Amazon_in_title()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError\n\tat org.junit.Assert.fail(Assert.java:86)\n\tat org.junit.Assert.fail(Assert.java:95)\n\tat steps.Amazon_Steps.user_searches_for_something(Amazon_Steps.java:25)\n\tat ✽.User searches for something(src/test/resources/features/amazon.feature:7)\n",
+              "duration": 1485357,
+              "status": "failed"
+            },
+            "line": 7,
+            "name": "User searches for something",
+            "match": {
+              "location": "Amazon_Steps.user_searches_for_something()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@amazon"
+          }
+        ]
+      }
+    ],
+    "name": "Amazon verification",
+    "description": "",
+    "id": "amazon-verification",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/amazon.feature",
+    "tags": []
+  }
+]
