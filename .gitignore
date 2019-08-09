@@ -17,3 +17,23 @@ pom.xml.tag
 
 # Maven
 target/
+
+# Eclipse
+.classpath
+.project
+.settings/
+ 
+# Intellij
+.idea/
+*.iml
+*.iws
+.idea/workspace.xml
+ 
+# Mac
+.DS_Store
+ 
+# Maven
+log/
+target/
+# configuration properties should be ignored to secure confidential data
+configuration.properties

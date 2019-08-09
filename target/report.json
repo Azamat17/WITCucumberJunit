@@ -3,63 +3,102 @@
     "line": 1,
     "elements": [
       {
+        "before": [
+          {
+            "result": {
+              "duration": 7307731177,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.login()"
+            }
+          }
+        ],
         "line": 4,
-        "name": "Amazon title verification",
+        "name": "Discard Scrap Orders Creation as a manager",
         "description": "",
-        "id": "amazon-verification;amazon-title-verification",
+        "id": "briteerp-inventory-functionality;discard-scrap-orders-creation-as-a-manager",
+        "after": [
+          {
+            "result": {
+              "duration": 84605847,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 4971213456,
+              "duration": 178514158,
               "status": "passed"
             },
             "line": 5,
-            "name": "User is on Amazon application",
+            "name": "Manger navigates to Scrap and clicks",
             "match": {
-              "location": "Amazon_Steps.user_is_on_Amazon_application()"
+              "location": "DiscardScrap_Steps.manger_navigates_to_Scrap_and_clicks()"
             },
-            "keyword": "When "
+            "keyword": "Given "
           },
           {
             "result": {
-              "duration": 61026232,
+              "duration": 2313108194,
               "status": "passed"
             },
             "line": 6,
-            "name": "User should see Amazon in title",
+            "name": "Manager clicks Create button_",
             "match": {
-              "location": "Amazon_Steps.user_should_see_Amazon_in_title()"
+              "location": "DiscardScrap_Steps.manager_clicks_Create_button_()"
             },
-            "keyword": "Then "
+            "keyword": "And "
           },
           {
             "result": {
-              "error_message": "java.lang.AssertionError\n\tat org.junit.Assert.fail(Assert.java:86)\n\tat org.junit.Assert.fail(Assert.java:95)\n\tat steps.Amazon_Steps.user_searches_for_something(Amazon_Steps.java:25)\n\tat ✽.User searches for something(src/test/resources/features/amazon.feature:7)\n",
-              "duration": 1485357,
-              "status": "failed"
+              "duration": 355480417,
+              "status": "passed"
             },
             "line": 7,
-            "name": "User searches for something",
+            "name": "Manager clicks Discard button",
             "match": {
-              "location": "Amazon_Steps.user_searches_for_something()"
+              "location": "DiscardScrap_Steps.manager_clicks_Discard_button()"
             },
             "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 34808339,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Manager sees \"Scrap Orders\" in main header",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Scrap Orders\"",
+                  "offset": 13
+                }
+              ],
+              "location": "DiscardScrap_Steps.manager_sees_in_main_header(String)"
+            },
+            "keyword": "Then "
           }
         ],
         "tags": [
           {
-            "name": "@amazon"
+            "name": "@discardScrap"
           }
         ]
       }
     ],
-    "name": "Amazon verification",
+    "name": "BriteERP Inventory Functionality",
     "description": "",
-    "id": "amazon-verification",
+    "id": "briteerp-inventory-functionality",
     "keyword": "Feature",
-    "uri": "src/test/resources/features/amazon.feature",
+    "uri": "src/test/resources/features/discardScrapOrdersCreation.feature",
     "tags": []
   }
 ]

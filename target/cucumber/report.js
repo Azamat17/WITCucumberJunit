@@ -1,48 +1,63 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("src/test/resources/features/amazon.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("src/test/resources/features/discardScrapOrdersCreation.feature");
 formatter.feature({
-  "name": "Amazon verification",
+  "name": "BriteERP Inventory Functionality",
   "description": "",
   "keyword": "Feature"
 });
 formatter.scenario({
-  "name": "Amazon title verification",
+  "name": "Discard Scrap Orders Creation as a manager",
   "description": "",
   "keyword": "Scenario",
   "tags": [
     {
-      "name": "@amazon"
+      "name": "@discardScrap"
     }
   ]
 });
+formatter.before({
+  "status": "passed"
+});
 formatter.step({
-  "name": "User is on Amazon application",
-  "keyword": "When "
+  "name": "Manger navigates to Scrap and clicks",
+  "keyword": "Given "
 });
 formatter.match({
-  "location": "Amazon_Steps.user_is_on_Amazon_application()"
+  "location": "DiscardScrap_Steps.manger_navigates_to_Scrap_and_clicks()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "User should see Amazon in title",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "Amazon_Steps.user_should_see_Amazon_in_title()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "User searches for something",
+  "name": "Manager clicks Create button_",
   "keyword": "And "
 });
 formatter.match({
-  "location": "Amazon_Steps.user_searches_for_something()"
+  "location": "DiscardScrap_Steps.manager_clicks_Create_button_()"
 });
 formatter.result({
-  "error_message": "java.lang.AssertionError\n\tat org.junit.Assert.fail(Assert.java:86)\n\tat org.junit.Assert.fail(Assert.java:95)\n\tat steps.Amazon_Steps.user_searches_for_something(Amazon_Steps.java:25)\n\tat ✽.User searches for something(src/test/resources/features/amazon.feature:7)\n",
-  "status": "failed"
+  "status": "passed"
+});
+formatter.step({
+  "name": "Manager clicks Discard button",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "DiscardScrap_Steps.manager_clicks_Discard_button()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Manager sees \"Scrap Orders\" in main header",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "DiscardScrap_Steps.manager_sees_in_main_header(String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.after({
+  "status": "passed"
 });
 });
