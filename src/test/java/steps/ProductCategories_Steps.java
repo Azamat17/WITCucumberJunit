@@ -21,7 +21,7 @@ public class ProductCategories_Steps {
     }
     @And("Manager clicks Create button")
     public void manager_clicks_Create_button() {
-        inventoryPage.createButton.click();
+        inventoryPage.productCategoryCreateButton.click();
     }
 
     @And("Manager types {string} in Category Name field")
