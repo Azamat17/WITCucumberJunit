@@ -17,6 +17,12 @@ public class InventoryPage {
     @FindBy(xpath = "//a[@href='/web#menu_id=354&action=232']")
     public WebElement productCategories;
 
+    @FindBy (xpath = "//span[contains(text(),'Warehouse Management')]")
+    public WebElement WarehouseManagement;
+
+    @FindBy (xpath = "//span[contains(text(),'Warehouses')]")
+    public WebElement Warehouses;
+
     @FindBy(xpath = "(//div[@class='o_list_buttons']//button)[1]")
     public WebElement productCategoryCreateButton;
 
