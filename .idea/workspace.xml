@@ -1,48 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-<<<<<<< Updated upstream
     <list default="true" id="0e5b63e6-59b7-4a6a-b0ac-1f60d74174cc" name="Default Changelist" comment="">
-<<<<<<< HEAD
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/TransferSearchPage.java" afterDir="false" />
-=======
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/ProductsPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/WarehousesPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/steps/DeleteWarehouse_Steps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/steps/DuplicateProduct.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/Waits.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/productCreation.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/warehouseManagement.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
->>>>>>> f8befb2d0c9225d7e99e977490e7ca6c570e918a
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/runners/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runners/Runner.java" afterDir="false" />
-<<<<<<< HEAD
-      <change beforePath="$PROJECT_DIR$/src/test/java/steps/TransfersSearch_Steps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/TransfersSearch_Steps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/transfersSearch.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/transfersSearch.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber/report.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/report.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/report.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/WITCucumberJUnit.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/runners/Runner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/runners/Runner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/steps/DiscardScrap_Steps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/steps/DiscardScrap_Steps.class" afterDir="false" />
-=======
-      <change beforePath="$PROJECT_DIR$/src/test/java/steps/ProductCategories_Steps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/ProductCategories_Steps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/discardScrapOrdersCreation.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/discardScrapOrdersCreation.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/productCategories.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/productCategories.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/cucumber/embedded0.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber/embedded0.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/cucumber/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber/report.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/report.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/report.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/WITCucumberJUnit.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/META-INF/WITCucumberJUnit.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/features/discardScrapOrdersCreation.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/discardScrapOrdersCreation.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/features/productCategories.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/productCategories.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/InventoryPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/InventoryPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/runners/Runner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/runners/Runner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/steps/ProductCategories_Steps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/steps/ProductCategories_Steps.class" afterDir="false" />
->>>>>>> f8befb2d0c9225d7e99e977490e7ca6c570e918a
     </list>
-=======
-    <list default="true" id="0e5b63e6-59b7-4a6a-b0ac-1f60d74174cc" name="Default Changelist" comment="" />
->>>>>>> Stashed changes
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -59,18 +24,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-<<<<<<< Updated upstream
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/runners/Runner.java">
-<<<<<<< HEAD
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-=======
-=======
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/configuration.properties">
           <provider selected="true" editor-type-id="text-editor">
@@ -81,11 +34,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/steps/ProductCategories_Steps.java">
->>>>>>> Stashed changes
+        <entry file="file://$PROJECT_DIR$/src/test/java/runners/Runner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="24" column="49" selection-start-line="24" selection-start-column="49" selection-end-line="24" selection-end-column="49" />
+            <state relative-caret-position="180">
+              <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -94,10 +46,24 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/pages/ProductsPage.java">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-329">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+            <state relative-caret-position="105">
+              <caret line="7" column="6" lean-forward="true" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/target/report.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="61808">
+              <caret line="30" selection-start-line="30" selection-end-line="30" />
             </state>
           </provider>
         </entry>
@@ -111,9 +77,13 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/resources/features/productCreation.feature">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="2" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="18" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -130,43 +100,15 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
               <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
->>>>>>> f8befb2d0c9225d7e99e977490e7ca6c570e918a
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-<<<<<<< HEAD
-        <entry file="file://$PROJECT_DIR$/src/test/java/pages/TransferSearchPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="287">
-              <caret line="19" selection-start-line="19" selection-end-line="19" />
-=======
         <entry file="file://$PROJECT_DIR$/src/test/java/steps/DiscardScrap_Steps.java">
           <provider selected="true" editor-type-id="text-editor">
-<<<<<<< Updated upstream
-            <state relative-caret-position="536">
-              <caret line="39" selection-start-line="39" selection-end-line="39" />
->>>>>>> f8befb2d0c9225d7e99e977490e7ca6c570e918a
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#237#238#0" expanded="true" />
-                <element signature="e#303#304#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-<<<<<<< HEAD
-        <entry file="file://$PROJECT_DIR$/src/test/java/pages/InventoryPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-342">
-              <caret line="14" column="31" lean-forward="true" selection-start-line="13" selection-start-column="4" selection-end-line="14" selection-end-column="31" />
-=======
             <state relative-caret-position="132">
               <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
->>>>>>> Stashed changes
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -174,79 +116,6 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-<<<<<<< Updated upstream
-        <entry file="file://$PROJECT_DIR$/src/test/java/steps/TransfersSearch_Steps.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="42" column="48" selection-start-line="42" selection-start-column="48" selection-end-line="42" selection-end-column="48" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/steps/ProductCategories_Steps.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-179">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-=======
-        <entry file="file://$PROJECT_DIR$/src/test/resources/features/productCategories.feature">
-=======
-        <entry file="file://$PROJECT_DIR$/src/test/java/pages/InventoryPage.java">
->>>>>>> Stashed changes
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="196">
-              <caret line="56" column="40" selection-start-line="56" selection-start-column="40" selection-end-line="56" selection-end-column="40" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/pages/WarehousesPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-<<<<<<< Updated upstream
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/target/report.json">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/resources/features/warehouseManagement.feature">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/resources/features/productCreation.feature">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
->>>>>>> f8befb2d0c9225d7e99e977490e7ca6c570e918a
-=======
->>>>>>> Stashed changes
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -258,11 +127,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="RECENT_BRANCH_BY_REPOSITORY">
-      <map>
-        <entry key="$PROJECT_DIR$" value="master" />
-      </map>
-    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -281,15 +145,8 @@
         <option value="$PROJECT_DIR$/src/test/java/pages/InventoryPage.java" />
         <option value="$PROJECT_DIR$/src/test/resources/features/discardScrapOrdersCreation.feature" />
         <option value="$PROJECT_DIR$/src/test/java/steps/DiscardScrap_Steps.java" />
-<<<<<<< HEAD
-        <option value="$PROJECT_DIR$/src/test/java/runners/Runner.java" />
-        <option value="$PROJECT_DIR$/src/test/resources/features/transfersSearch.feature" />
-        <option value="$PROJECT_DIR$/src/test/java/pages/TransferSearchPage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/steps/TransfersSearch_Steps.java" />
-=======
         <option value="$PROJECT_DIR$/target/report.json" />
         <option value="$PROJECT_DIR$/src/test/java/runners/Runner.java" />
->>>>>>> f8befb2d0c9225d7e99e977490e7ca6c570e918a
       </list>
     </option>
   </component>
@@ -300,18 +157,10 @@
       </MavenImportingSettings>
     </option>
   </component>
-<<<<<<< HEAD
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="15" />
-    <option name="y" value="30" />
-    <option name="width" value="2025" />
-    <option name="height" value="1032" />
-=======
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1308" />
     <option name="height" value="798" />
->>>>>>> f8befb2d0c9225d7e99e977490e7ca6c570e918a
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -319,52 +168,43 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="WITCucumberJunit" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WITCucumberJunit" type="462c0819:PsiDirectoryNode" />
+              <item name="WITCucumberJUnit" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WITCucumberJUnit" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="WITCucumberJunit" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WITCucumberJunit" type="462c0819:PsiDirectoryNode" />
+              <item name="WITCucumberJUnit" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WITCucumberJUnit" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WITCucumberJUnit" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WITCucumberJUnit" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="WITCucumberJunit" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WITCucumberJunit" type="462c0819:PsiDirectoryNode" />
+              <item name="WITCucumberJUnit" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WITCucumberJUnit" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="WITCucumberJunit" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WITCucumberJunit" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WITCucumberJunit" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WITCucumberJunit" type="462c0819:PsiDirectoryNode" />
+              <item name="WITCucumberJUnit" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WITCucumberJUnit" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-<<<<<<< HEAD
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="WITCucumberJunit" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WITCucumberJunit" type="462c0819:PsiDirectoryNode" />
+              <item name="WITCucumberJUnit" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WITCucumberJUnit" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-<<<<<<< Updated upstream
-=======
->>>>>>> f8befb2d0c9225d7e99e977490e7ca6c570e918a
-=======
               <item name="pages" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -373,41 +213,21 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
->>>>>>> Stashed changes
               <item name="runners" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="WITCucumberJunit" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WITCucumberJunit" type="462c0819:PsiDirectoryNode" />
+              <item name="WITCucumberJUnit" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WITCucumberJUnit" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="steps" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="WITCucumberJunit" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WITCucumberJunit" type="462c0819:PsiDirectoryNode" />
+              <item name="WITCucumberJUnit" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WITCucumberJUnit" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
-<<<<<<< HEAD
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="utilities" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WITCucumberJunit" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WITCucumberJunit" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WITCucumberJunit" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WITCucumberJunit" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="features" type="462c0819:PsiDirectoryNode" />
-=======
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -417,17 +237,12 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="features" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WITCucumberJUnit" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WITCucumberJUnit" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
->>>>>>> f8befb2d0c9225d7e99e977490e7ca6c570e918a
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -461,22 +276,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Runner (1)">
-    <configuration name="Runner (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="WITCucumberJunit" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="runners.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="runners" />
-      <option name="MAIN_CLASS_NAME" value="runners.Runner" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager">
     <configuration name="Runner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="WITCucumberJUnit" />
       <extension name="coverage">
@@ -494,7 +294,6 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.Runner (1)" />
         <item itemvalue="JUnit.Runner" />
       </list>
     </recent_temporary>
@@ -510,56 +309,20 @@
       <option name="presentableId" value="Default" />
       <updated>1565283522162</updated>
     </task>
-    <task id="LOCAL-00001" summary="transfers">
-      <created>1565456912697</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1565456912697</updated>
-    </task>
-    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
-<<<<<<< Updated upstream
-<<<<<<< HEAD
-    <history-entry file="Runner_(1) - 2019.08.10 at 15h 35m 20s.xml">
-      <configuration name="Runner (1)" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Runner_(1) - 2019.08.10 at 15h 37m 55s.xml">
-      <configuration name="Runner (1)" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Runner_(1) - 2019.08.10 at 15h 39m 29s.xml">
-      <configuration name="Runner (1)" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Runner_(1) - 2019.08.10 at 15h 49m 05s.xml">
-      <configuration name="Runner (1)" configurationId="JUnit" />
-=======
-    <history-entry file="Runner - 2019.08.09 at 03h 06m 42s.xml">
+    <history-entry file="Runner - 2019.08.09 at 03h 24m 09s.xml">
       <configuration name="Runner" configurationId="JUnit" />
->>>>>>> f8befb2d0c9225d7e99e977490e7ca6c570e918a
     </history-entry>
-    <history-entry file="Runner_(1) - 2019.08.10 at 15h 51m 17s.xml">
-      <configuration name="Runner (1)" configurationId="JUnit" />
-=======
-    <history-entry file="Runner - 2019.08.09 at 03h 09m 50s.xml">
+    <history-entry file="Runner - 2019.08.09 at 03h 25m 38s.xml">
       <configuration name="Runner" configurationId="JUnit" />
->>>>>>> Stashed changes
     </history-entry>
-    <history-entry file="Runner_(1) - 2019.08.10 at 15h 56m 32s.xml">
-      <configuration name="Runner (1)" configurationId="JUnit" />
+    <history-entry file="Runner - 2019.08.09 at 03h 26m 50s.xml">
+      <configuration name="Runner" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Runner_(1) - 2019.08.10 at 15h 57m 39s.xml">
-      <configuration name="Runner (1)" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Runner_(1) - 2019.08.10 at 15h 59m 47s.xml">
-      <configuration name="Runner (1)" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Runner_(1) - 2019.08.10 at 16h 00m 29s.xml">
-      <configuration name="Runner (1)" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Runner_(1) - 2019.08.10 at 16h 02m 00s.xml">
-      <configuration name="Runner (1)" configurationId="JUnit" />
+    <history-entry file="Runner - 2019.08.09 at 03h 30m 54s.xml">
+      <configuration name="Runner" configurationId="JUnit" />
     </history-entry>
     <history-entry file="Runner - 2019.08.09 at 16h 01m 53s.xml">
       <configuration name="Runner" configurationId="JUnit" />
@@ -573,23 +336,17 @@
     <history-entry file="Runner - 2019.08.10 at 15h 35m 52s.xml">
       <configuration name="Runner" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="Runner - 2019.08.10 at 17h 12m 08s.xml">
+      <configuration name="Runner" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Runner - 2019.08.10 at 17h 13m 25s.xml">
+      <configuration name="Runner" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-<<<<<<< HEAD
-    <frame x="-7" y="-7" width="1380" height="743" extended-state="6" />
-    <editor active="true" />
-    <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17272727" />
-=======
     <frame x="0" y="23" width="1308" height="798" extended-state="0" />
-    <editor active="true" />
     <layout>
-<<<<<<< Updated upstream
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4976526" visible="true" weight="0.27330175" />
->>>>>>> f8befb2d0c9225d7e99e977490e7ca6c570e918a
-=======
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4976526" visible="true" weight="0.27330175" />
->>>>>>> Stashed changes
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -598,28 +355,12 @@
       <window_info id="Favorites" order="6" sideWeight="0.5023474" side_tool="true" weight="0.27330175" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-<<<<<<< Updated upstream
-<<<<<<< HEAD
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.396072" />
-=======
       <window_info anchor="bottom" id="Run" order="2" weight="0.39660057" />
->>>>>>> f8befb2d0c9225d7e99e977490e7ca6c570e918a
-=======
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.39660057" />
->>>>>>> Stashed changes
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-<<<<<<< Updated upstream
-<<<<<<< HEAD
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32569557" />
-=======
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.3286119" />
->>>>>>> f8befb2d0c9225d7e99e977490e7ca6c570e918a
-=======
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.21388102" />
->>>>>>> Stashed changes
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.21388102" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Messages" order="10" />
@@ -632,87 +373,42 @@
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
-    <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17272727" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.39660057" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32569557" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Messages" order="10" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Maven" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-    </layout-to-restore>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="transfers" />
-    <option name="LAST_COMMIT_MESSAGE" value="transfers" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/test/resources/features/product.feature" />
     <entry file="file://$PROJECT_DIR$/src/test/java/utilities/utilities/Driver.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/utilities/utilities/Config.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/steps/Amazon_Steps.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/pages/Hooks.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/pages/WikipediaHomePage.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/steps/Wikipedia_Steps.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/resources/features/amazon.feature" />
-    <entry file="file://$PROJECT_DIR$/src/test/resources/features/wikipedia.feature" />
-    <entry file="file://$PROJECT_DIR$/src/test/resources/features/productCategories.feature">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="9" selection-start-column="9" selection-end-column="41" />
+        <state relative-caret-position="1185">
+          <caret line="79" column="10" selection-start-line="79" selection-start-column="10" selection-end-line="79" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/features/discardScrapOrdersCreation.feature">
+    <entry file="file://$PROJECT_DIR$/src/test/java/steps/Amazon_Steps.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="36" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar!/org/openqa/selenium/support/pagefactory/internal/LocatingElementHandler.class">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/steps/DiscardScrap_Steps.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="345">
+          <caret line="27" column="1" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/features/transfersSearch.feature">
+    <entry file="file://$PROJECT_DIR$/src/test/java/pages/Hooks.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/pages/WikipediaHomePage.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/steps/Wikipedia_Steps.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/amazon.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+        <state relative-caret-position="165">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/steps/Hooks.java">
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/wikipedia.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
-          <caret line="33" column="8" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="8" />
+        <state relative-caret-position="195">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
         </state>
       </provider>
     </entry>
@@ -723,120 +419,48 @@
         </state>
       </provider>
     </entry>
-<<<<<<< Updated upstream
-    <entry file="file://$PROJECT_DIR$/configuration.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="22" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-=======
     <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar!/org/openqa/selenium/support/pagefactory/internal/LocatingElementHandler.class">
->>>>>>> Stashed changes
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="79" column="10" selection-start-line="79" selection-start-column="10" selection-end-line="79" selection-end-column="10" />
+        <state relative-caret-position="-15">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/utilities/Driver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="447">
-          <caret line="32" column="5" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
+        <state relative-caret-position="223">
+          <caret line="32" column="5" lean-forward="true" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/pages/TransferSearchPage.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/steps/Hooks.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#237#238#0" expanded="true" />
-            <element signature="e#303#304#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="323">
+          <caret line="33" column="8" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="8" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/features/warehouseManagement.feature">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/features/discardScrapOrdersCreation.feature">
       <provider selected="true" editor-type-id="text-editor">
-<<<<<<< Updated upstream
-<<<<<<< HEAD
-        <state relative-caret-position="-179">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-=======
-        <state relative-caret-position="1">
-          <caret line="24" column="49" selection-start-line="24" selection-start-column="49" selection-end-line="24" selection-end-column="49" />
->>>>>>> f8befb2d0c9225d7e99e977490e7ca6c570e918a
-=======
         <state relative-caret-position="135">
           <caret line="9" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/target/report.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/runners/Runner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
->>>>>>> Stashed changes
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/steps/ProductCategories_Steps.java">
       <provider selected="true" editor-type-id="text-editor">
-<<<<<<< Updated upstream
-<<<<<<< HEAD
-        <state relative-caret-position="-342">
-          <caret line="14" column="31" lean-forward="true" selection-start-line="13" selection-start-column="4" selection-end-line="14" selection-end-column="31" />
-=======
-        <state relative-caret-position="196">
-          <caret line="56" column="40" selection-start-line="56" selection-start-column="40" selection-end-line="56" selection-end-column="40" />
->>>>>>> f8befb2d0c9225d7e99e977490e7ca6c570e918a
-=======
         <state relative-caret-position="221">
           <caret line="24" column="49" selection-start-line="24" selection-start-column="49" selection-end-line="24" selection-end-column="49" />
->>>>>>> Stashed changes
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-<<<<<<< Updated upstream
-<<<<<<< HEAD
-    <entry file="file://$PROJECT_DIR$/src/test/java/steps/TransfersSearch_Steps.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="42" column="48" selection-start-line="42" selection-start-column="48" selection-end-line="42" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/runners/Runner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-=======
-    <entry file="file://$PROJECT_DIR$/src/test/java/steps/DiscardScrap_Steps.java">
-=======
     <entry file="file://$PROJECT_DIR$/src/test/java/pages/InventoryPage.java">
->>>>>>> Stashed changes
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="196">
           <caret line="56" column="40" selection-start-line="56" selection-start-column="40" selection-end-line="56" selection-end-column="40" />
@@ -876,14 +500,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/steps/DiscardScrap_Steps.java">
       <provider selected="true" editor-type-id="text-editor">
-<<<<<<< Updated upstream
-        <state relative-caret-position="315">
-          <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
->>>>>>> f8befb2d0c9225d7e99e977490e7ca6c570e918a
-=======
         <state relative-caret-position="132">
           <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
->>>>>>> Stashed changes
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -904,7 +522,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/target/report.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="61808">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/features/productCreation.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="2" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/runners/Runner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="6" lean-forward="true" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
