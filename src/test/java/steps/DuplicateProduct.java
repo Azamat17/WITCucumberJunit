@@ -14,7 +14,7 @@ public class DuplicateProduct {
 
     @Given("Manager clicks on Products tab")
     public void manager_clicks_on_Products_tab() {
-        inventoryPage.products.click();
+        inventoryPage.Products.click();
     }
 
     @And("Manager clicks on Create button")

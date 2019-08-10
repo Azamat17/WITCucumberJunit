@@ -12,7 +12,8 @@ public class ProductCategories_Steps {
 
     @Given("Manager navigates to Products under Configuration and clicks")
     public void manager_navigates_to_Products_under_Configuration_and_clicks() {
-        inventoryPage.products.click();
+
+        inventoryPage.productsCategories.click();
     }
 
     @And("Manager clicks Products Categories")
@@ -22,6 +23,7 @@ public class ProductCategories_Steps {
 
     @And("Manager clicks Create button")
     public void manager_clicks_Create_button() {
+
         inventoryPage.productCategoryCreateButton.click();
     }
 
