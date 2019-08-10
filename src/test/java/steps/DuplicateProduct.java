@@ -3,6 +3,7 @@ package steps;
 import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
+import org.junit.Assert;
 import pages.InventoryPage;
 import pages.ProductsPage;
 
@@ -21,9 +22,9 @@ public class DuplicateProduct {
         productsPage.Create.click();
     }
 
-    @And("Manager enters AAA Title in Product Name textbox")
-    public void manager_enters_AAA_Title_in_Product_Name_textbox() {
-        productsPage.ProductName.sendKeys("AAA Title");
+    @And("Manager enters {string} in Product Name textbox")
+    public void manager_enters_in_Product_Name_textbox(String string) {
+        productsPage.ProductName.sendKeys(string);
     }
 
     @And("Manager sets Product Type to Consumable")
@@ -44,24 +45,24 @@ public class DuplicateProduct {
         productsPage.InternalReference.sendKeys("Int Reference");
     }
 
-    @And("Manager enters #0093215 in Barcode textbox")
-    public void manager_enters_in_Barcode_textbox(Integer int1) {
-        productsPage.Barcode.click();
-        productsPage.Barcode.sendKeys("#0093215");
+    @And("Manager enters {string} in Barcode textbox")
+    public void manager_enters_in_Barcode_textbox(String string) {
+        productsPage.Barcode.sendKeys(string);
+
     }
 
-    @Given("Manager sets Sales Price to 100")
-    public void manager_sets_Sales_Price_to(Integer int1) {
+    @And("Manager sets Sales Price to {string}")
+    public void manager_sets_Sales_Price_to(String string) {
         productsPage.SalesPrice.click();
         productsPage.SalesPrice.clear();
-        productsPage.SalesPrice.sendKeys("100");
+        productsPage.SalesPrice.sendKeys(string);
     }
 
-    @And("Manager sets Cost to 75")
-    public void manager_sets_Cost_to(Integer int1) {
+    @And("Manager sets Cost to {string}")
+    public void manager_sets_Cost_to(String string) {
         productsPage.Cost.click();
         productsPage.Cost.clear();
-        productsPage.Cost.sendKeys("75");
+        productsPage.Cost.sendKeys(string);
     }
 
     @And("Manager clicks on Save Button")
@@ -71,7 +72,7 @@ public class DuplicateProduct {
 
     @Then("Manager should see an error popup")
     public void manager_should_see_an_error_popup() {
-
+        Assert.assertTrue(productsPage.ErrorWindow.getText().contains("A barcode can only be assigned to one product"));
     }
 
 }

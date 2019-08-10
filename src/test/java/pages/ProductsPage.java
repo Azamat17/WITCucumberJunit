@@ -44,7 +44,7 @@ public class ProductsPage {
     @FindBy (xpath = "//button[@class='btn btn-primary btn-sm o_form_button_save']")
     public WebElement Save;
 
-//    @FindBy (xpath = "//span[contains(text(),'Products')]")
-//    public WebElement Products;
+    @FindBy (xpath = "//div[@class='o_dialog_warning modal-body']")
+    public WebElement ErrorWindow;
 
 }
