@@ -26,7 +26,7 @@ public class WarehousesPage {
     @FindBy (xpath = "//span[contains(text(),'Ok')]")
     public WebElement Error_OK;
 
-    @FindBy (xpath = "//div[@class= 'modal-header']")
+    @FindBy (xpath = "//h4[@class= 'modal-title']")
     public WebElement ErrorPopup;
 
 }

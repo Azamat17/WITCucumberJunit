@@ -10,9 +10,9 @@ public class Waits {
 
     Driver driver = new Driver();
 
-    public void VisibleElementClick(WebElement element){
+    public void VisibleElement(WebElement element){
         WebDriverWait wait = new WebDriverWait(Driver.getDriver(),15);
-        wait.until(ExpectedConditions.visibilityOf(element)).click();
+        wait.until(ExpectedConditions.visibilityOf(element));
     }
 
 }
