@@ -6,8 +6,8 @@
         "before": [
           {
             "result": {
-              "duration": 13731545700,
-              "status": "passed"
+              "duration": 321000,
+              "status": "skipped"
             },
             "match": {
               "location": "Hooks.login()"
@@ -15,14 +15,14 @@
           }
         ],
         "line": 4,
-        "name": "Manager should fail to delete selected warehouse",
+        "name": "Changing values in General Info when creating product",
         "description": "",
-        "id": "warehouses-dropdown-verification;manager-should-fail-to-delete-selected-warehouse",
+        "id": "general-info-in-product-creation;changing-values-in-general-info-when-creating-product",
         "after": [
           {
             "result": {
-              "duration": 645090900,
-              "status": "passed"
+              "duration": 3300,
+              "status": "skipped"
             },
             "match": {
               "location": "Hooks.tearDown(Scenario)"
@@ -34,92 +34,107 @@
         "steps": [
           {
             "result": {
-              "duration": 68008100,
-              "status": "passed"
+              "status": "undefined"
             },
             "line": 6,
-            "name": "Manager clicks on Warehouse Management dropdown",
-            "match": {
-              "location": "DeleteWarehouse_Steps.manager_clicks_on_Warehouse_Management_dropdown()"
-            },
+            "name": "Manager clicks on Products tab",
+            "match": {},
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 53402100,
-              "status": "passed"
+              "status": "undefined"
             },
             "line": 7,
-            "name": "Manager clicks on Warehouses",
-            "match": {
-              "location": "DeleteWarehouse_Steps.manager_clicks_on_Warehouses()"
-            },
+            "name": "Manager clicks on Create button",
+            "match": {},
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 2441255400,
-              "status": "passed"
+              "status": "undefined"
             },
             "line": 8,
-            "name": "Manager selects My Company, Chicago warehouse checkbox",
-            "match": {
-              "location": "DeleteWarehouse_Steps.manager_selects_My_Company_Chicago_warehouse_checkbox()"
-            },
+            "name": "Manager enters AAA Title in Product Name textbox",
+            "match": {},
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 53117500,
-              "status": "passed"
+              "status": "undefined"
             },
             "line": 9,
-            "name": "Manager clicks on Action dropdown that appears",
-            "match": {
-              "location": "DeleteWarehouse_Steps.manager_clicks_on_Action_dropdown()"
-            },
+            "name": "Manager setsProduct Type to Consumable",
+            "match": {},
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 71984800,
-              "status": "passed"
+              "status": "undefined"
             },
             "line": 10,
-            "name": "Manager selects Delete option",
-            "match": {
-              "location": "DeleteWarehouse_Steps.manager_selects_Delete_option()"
-            },
+            "name": "Manager sets Catagory to All / Artistic",
+            "match": {},
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 153695200,
-              "status": "passed"
+              "status": "undefined"
             },
             "line": 11,
-            "name": "Manager confirms deletion",
-            "match": {
-              "location": "DeleteWarehouse_Steps.manager_confirms_deletion()"
-            },
+            "name": "Manager enters Int Reference in Internal Reference textbox",
+            "match": {},
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 1529983700,
-              "status": "passed"
+              "status": "undefined"
             },
             "line": 12,
-            "name": "Manager should see an Odoo Server Error window popup",
-            "match": {
-              "location": "DeleteWarehouse_Steps.manager_should_see_an_Odoo_Server_Error_window_popup()"
+            "name": "Manager enters #0093215 in Barcode textbox",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
             },
+            "line": 13,
+            "name": "Manager sets Sales Price to 100",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 14,
+            "name": "Manager sets Cost to 75",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 15,
+            "name": "Manager clicks on Save Button",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 16,
+            "name": "Manager should see an error popup",
+            "match": {},
             "keyword": "Then "
           }
         ],
         "tags": [
           {
-            "name": "@deleteWarehouse"
+            "name": "@productCreation"
           },
           {
             "name": "@smoke"
@@ -127,11 +142,11 @@
         ]
       }
     ],
-    "name": "Warehouses dropdown verification",
+    "name": "General Info in product creation",
     "description": "",
-    "id": "warehouses-dropdown-verification",
+    "id": "general-info-in-product-creation",
     "keyword": "Feature",
-    "uri": "src/test/resources/features/warehouseManagement.feature",
+    "uri": "src/test/resources/features/productCreation.feature",
     "tags": []
   }
 ]

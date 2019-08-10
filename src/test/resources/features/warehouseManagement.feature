@@ -1,4 +1,4 @@
-Feature: Warehouses dropdown verification
+Feature: Warehouses verification
 
   @deleteWarehouse @smoke
   Scenario: Manager should fail to delete selected warehouse

@@ -8,10 +8,9 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class Waits {
 
-    Driver driver = new Driver();
+    public static WebDriverWait wait = new WebDriverWait(Driver.getDriver(),15);
 
     public void VisibleElement(WebElement element){
-        WebDriverWait wait = new WebDriverWait(Driver.getDriver(),15);
         wait.until(ExpectedConditions.visibilityOf(element));
     }
 

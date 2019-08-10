@@ -23,6 +23,9 @@ public class InventoryPage {
     @FindBy (xpath = "//span[contains(text(),'Warehouses')]")
     public WebElement Warehouses;
 
+    @FindBy (xpath = "//span[contains(text(),'Products')]")
+    public WebElement Products;
+
     @FindBy(xpath = "(//div[@class='o_list_buttons']//button)[1]")
     public WebElement productCategoryCreateButton;
 

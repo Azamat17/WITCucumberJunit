@@ -1,16 +1,16 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("src/test/resources/features/warehouseManagement.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("src/test/resources/features/productCreation.feature");
 formatter.feature({
-  "name": "Warehouses dropdown verification",
+  "name": "General Info in product creation",
   "description": "",
   "keyword": "Feature"
 });
 formatter.scenario({
-  "name": "Manager should fail to delete selected warehouse",
+  "name": "Changing values in General Info when creating product",
   "description": "",
   "keyword": "Scenario",
   "tags": [
     {
-      "name": "@deleteWarehouse"
+      "name": "@productCreation"
     },
     {
       "name": "@smoke"
@@ -18,79 +18,97 @@ formatter.scenario({
   ]
 });
 formatter.before({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.step({
-  "name": "Manager clicks on Warehouse Management dropdown",
+  "name": "Manager clicks on Products tab",
   "keyword": "Given "
 });
-formatter.match({
-  "location": "DeleteWarehouse_Steps.manager_clicks_on_Warehouse_Management_dropdown()"
-});
+formatter.match({});
 formatter.result({
-  "status": "passed"
+  "status": "undefined"
 });
 formatter.step({
-  "name": "Manager clicks on Warehouses",
+  "name": "Manager clicks on Create button",
   "keyword": "And "
 });
-formatter.match({
-  "location": "DeleteWarehouse_Steps.manager_clicks_on_Warehouses()"
-});
+formatter.match({});
 formatter.result({
-  "status": "passed"
+  "status": "undefined"
 });
 formatter.step({
-  "name": "Manager selects My Company, Chicago warehouse checkbox",
+  "name": "Manager enters AAA Title in Product Name textbox",
   "keyword": "And "
 });
-formatter.match({
-  "location": "DeleteWarehouse_Steps.manager_selects_My_Company_Chicago_warehouse_checkbox()"
-});
+formatter.match({});
 formatter.result({
-  "status": "passed"
+  "status": "undefined"
 });
 formatter.step({
-  "name": "Manager clicks on Action dropdown that appears",
+  "name": "Manager setsProduct Type to Consumable",
   "keyword": "And "
 });
-formatter.match({
-  "location": "DeleteWarehouse_Steps.manager_clicks_on_Action_dropdown()"
-});
+formatter.match({});
 formatter.result({
-  "status": "passed"
+  "status": "undefined"
 });
 formatter.step({
-  "name": "Manager selects Delete option",
+  "name": "Manager sets Catagory to All / Artistic",
   "keyword": "And "
 });
-formatter.match({
-  "location": "DeleteWarehouse_Steps.manager_selects_Delete_option()"
-});
+formatter.match({});
 formatter.result({
-  "status": "passed"
+  "status": "undefined"
 });
 formatter.step({
-  "name": "Manager confirms deletion",
+  "name": "Manager enters Int Reference in Internal Reference textbox",
   "keyword": "And "
 });
-formatter.match({
-  "location": "DeleteWarehouse_Steps.manager_confirms_deletion()"
-});
+formatter.match({});
 formatter.result({
-  "status": "passed"
+  "status": "undefined"
 });
 formatter.step({
-  "name": "Manager should see an Odoo Server Error window popup",
+  "name": "Manager enters #0093215 in Barcode textbox",
+  "keyword": "And "
+});
+formatter.match({});
+formatter.result({
+  "status": "undefined"
+});
+formatter.step({
+  "name": "Manager sets Sales Price to 100",
+  "keyword": "And "
+});
+formatter.match({});
+formatter.result({
+  "status": "undefined"
+});
+formatter.step({
+  "name": "Manager sets Cost to 75",
+  "keyword": "And "
+});
+formatter.match({});
+formatter.result({
+  "status": "undefined"
+});
+formatter.step({
+  "name": "Manager clicks on Save Button",
+  "keyword": "And "
+});
+formatter.match({});
+formatter.result({
+  "status": "undefined"
+});
+formatter.step({
+  "name": "Manager should see an error popup",
   "keyword": "Then "
 });
-formatter.match({
-  "location": "DeleteWarehouse_Steps.manager_should_see_an_Odoo_Server_Error_window_popup()"
-});
+formatter.match({});
 formatter.result({
-  "status": "passed"
+  "status": "undefined"
 });
 formatter.after({
-  "status": "passed"
+  "status": "skipped"
 });
 });
