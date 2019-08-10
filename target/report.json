@@ -6,7 +6,7 @@
         "before": [
           {
             "result": {
-              "duration": 7307731177,
+              "duration": 9385500344,
               "status": "passed"
             },
             "match": {
@@ -14,14 +14,14 @@
             }
           }
         ],
-        "line": 4,
-        "name": "Discard Scrap Orders Creation as a manager",
+        "line": 3,
+        "name": "BriteERP url verification using search feature",
         "description": "",
-        "id": "briteerp-inventory-functionality;discard-scrap-orders-creation-as-a-manager",
+        "id": "briteerp-transfers-search-feature;briteerp-url-verification-using-search-feature",
         "after": [
           {
             "result": {
-              "duration": 84605847,
+              "duration": 788873753,
               "status": "passed"
             },
             "match": {
@@ -34,71 +34,71 @@
         "steps": [
           {
             "result": {
-              "duration": 178514158,
+              "duration": 146991671,
               "status": "passed"
             },
-            "line": 5,
-            "name": "Manger navigates to Scrap and clicks",
+            "line": 4,
+            "name": "User is on Inventory page",
             "match": {
-              "location": "DiscardScrap_Steps.manger_navigates_to_Scrap_and_clicks()"
+              "location": "TransfersSearch_Steps.user_goes_to_Transfers_tab()"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 2313108194,
+              "duration": 162651718,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User goes to Transfers tab",
+            "match": {
+              "location": "TransfersSearch_Steps.user_goes_to_Transfers_tab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1983614621,
               "status": "passed"
             },
             "line": 6,
-            "name": "Manager clicks Create button_",
-            "match": {
-              "location": "DiscardScrap_Steps.manager_clicks_Create_button_()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 355480417,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "Manager clicks Discard button",
-            "match": {
-              "location": "DiscardScrap_Steps.manager_clicks_Discard_button()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 34808339,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "Manager sees \"Scrap Orders\" in main header",
+            "name": "User types \"anything\" word in the search box",
             "match": {
               "arguments": [
                 {
-                  "val": "\"Scrap Orders\"",
-                  "offset": 13
+                  "val": "\"anything\"",
+                  "offset": 11
                 }
               ],
-              "location": "DiscardScrap_Steps.manager_sees_in_main_header(String)"
+              "location": "TransfersSearch_Steps.user_types_word_in_the_search_box(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 16982006,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User verify the current url",
+            "match": {
+              "location": "TransfersSearch_Steps.user_verify_the_current_url()"
             },
             "keyword": "Then "
           }
         ],
         "tags": [
           {
-            "name": "@discardScrap"
+            "name": "@transfersearch"
           }
         ]
       }
     ],
-    "name": "BriteERP Inventory Functionality",
+    "name": "BriteERP Transfers search feature",
     "description": "",
-    "id": "briteerp-inventory-functionality",
+    "id": "briteerp-transfers-search-feature",
     "keyword": "Feature",
-    "uri": "src/test/resources/features/discardScrapOrdersCreation.feature",
+    "uri": "src/test/resources/features/transfersSearch.feature",
     "tags": []
   }
 ]

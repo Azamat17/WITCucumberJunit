@@ -1,5 +1,5 @@
 Feature: BriteERP Transfers search feature
-  @brite
+  @transfersearch
   Scenario:BriteERP url verification using search feature
     Given User is on Inventory page
     When User goes to Transfers tab
