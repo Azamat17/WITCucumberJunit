@@ -1,23 +1,19 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("src/test/resources/features/transfersSearch.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("src/test/resources/features/discardScrapOrdersCreation.feature");
 formatter.feature({
-  "name": "BriteERP Transfers search feature",
+  "name": "BriteERP Inventory Functionality",
   "description": "",
   "keyword": "Feature"
 });
 formatter.scenario({
-  "name": "BriteERP url verification using search feature",
+  "name": "Discard Scrap Orders Creation as a manager",
   "description": "",
   "keyword": "Scenario",
   "tags": [
     {
-<<<<<<< HEAD
-      "name": "@transfersearch"
-=======
       "name": "@discardScrap"
     },
     {
       "name": "@smoke"
->>>>>>> f8befb2d0c9225d7e99e977490e7ca6c570e918a
     }
   ]
 });
@@ -25,41 +21,41 @@ formatter.before({
   "status": "passed"
 });
 formatter.step({
-  "name": "User is on Inventory page",
+  "name": "Manger navigates to Scrap and clicks",
   "keyword": "Given "
 });
 formatter.match({
-  "location": "TransfersSearch_Steps.user_goes_to_Transfers_tab()"
+  "location": "DiscardScrap_Steps.manger_navigates_to_Scrap_and_clicks()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "User goes to Transfers tab",
-  "keyword": "When "
-});
-formatter.match({
-  "location": "TransfersSearch_Steps.user_goes_to_Transfers_tab()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "User types \"anything\" word in the search box",
+  "name": "Manager clicks Create button_",
   "keyword": "And "
 });
 formatter.match({
-  "location": "TransfersSearch_Steps.user_types_word_in_the_search_box(String)"
+  "location": "DiscardScrap_Steps.manager_clicks_Create_button_()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "User verify the current url",
+  "name": "Manager clicks Discard button",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "DiscardScrap_Steps.manager_clicks_Discard_button()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Manager sees \"Scrap Orders\" in main header",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "TransfersSearch_Steps.user_verify_the_current_url()"
+  "location": "DiscardScrap_Steps.manager_sees_in_main_header(String)"
 });
 formatter.result({
   "status": "passed"
@@ -212,7 +208,7 @@ formatter.match({
   "location": "DuplicateProduct.manager_clicks_on_Create_button()"
 });
 formatter.result({
-  "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[@class\u003d\u0027btn btn-primary btn-sm o-kanban-button-new btn-default\u0027]\"}\n  (Session info: chrome\u003d77.0.3865.19)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027Azamats-MacBook-Pro.local\u0027, ip: \u0027fe80:0:0:0:831:e453:ab68:9808%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.14.4\u0027, java.version: \u002711.0.2\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.19, chrome: {chromedriverVersion: 77.0.3865.10 (bc3579f611bbc..., userDataDir: /var/folders/2_/jf6fsrvs7gl...}, goog:chromeOptions: {debuggerAddress: localhost:52724}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: f4da2b06c178a469c1fc647391759599\n*** Element info: {Using\u003dxpath, value\u003d//button[@class\u003d\u0027btn btn-primary btn-sm o-kanban-button-new btn-default\u0027]}\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\n\tat com.sun.proxy.$Proxy18.click(Unknown Source)\n\tat steps.DuplicateProduct.manager_clicks_on_Create_button(DuplicateProduct.java:21)\n\tat ✽.Manager clicks on Create button(src/test/resources/features/productCreation.feature:7)\n",
+  "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[@class\u003d\u0027btn btn-primary btn-sm o-kanban-button-new btn-default\u0027]\"}\n  (Session info: chrome\u003d77.0.3865.19)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027Azamats-MacBook-Pro.local\u0027, ip: \u0027fe80:0:0:0:831:e453:ab68:9808%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.14.4\u0027, java.version: \u002711.0.2\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.19, chrome: {chromedriverVersion: 77.0.3865.10 (bc3579f611bbc..., userDataDir: /var/folders/2_/jf6fsrvs7gl...}, goog:chromeOptions: {debuggerAddress: localhost:57781}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: 1db70111c5336b33a4be720f3def41ea\n*** Element info: {Using\u003dxpath, value\u003d//button[@class\u003d\u0027btn btn-primary btn-sm o-kanban-button-new btn-default\u0027]}\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\n\tat com.sun.proxy.$Proxy19.click(Unknown Source)\n\tat steps.DuplicateProduct.manager_clicks_on_Create_button(DuplicateProduct.java:21)\n\tat ✽.Manager clicks on Create button(src/test/resources/features/productCreation.feature:7)\n",
   "status": "failed"
 });
 formatter.step({
@@ -359,8 +355,7 @@ formatter.match({
   "location": "DeleteWarehouse_Steps.manager_selects_My_Company_Chicago_warehouse_checkbox()"
 });
 formatter.result({
-  "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//tbody//input\"}\n  (Session info: chrome\u003d77.0.3865.19)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027Azamats-MacBook-Pro.local\u0027, ip: \u0027fe80:0:0:0:831:e453:ab68:9808%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.14.4\u0027, java.version: \u002711.0.2\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 77.0.3865.19, chrome: {chromedriverVersion: 77.0.3865.10 (bc3579f611bbc..., userDataDir: /var/folders/2_/jf6fsrvs7gl...}, goog:chromeOptions: {debuggerAddress: localhost:52831}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: 26849b46d6b490fe3392ae9b926ec489\n*** Element info: {Using\u003dxpath, value\u003d//tbody//input}\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\n\tat com.sun.proxy.$Proxy18.click(Unknown Source)\n\tat steps.DeleteWarehouse_Steps.manager_selects_My_Company_Chicago_warehouse_checkbox(DeleteWarehouse_Steps.java:29)\n\tat ✽.Manager selects My Company, Chicago warehouse checkbox(src/test/resources/features/warehouseManagement.feature:8)\n",
-  "status": "failed"
+  "status": "passed"
 });
 formatter.step({
   "name": "Manager clicks on Action dropdown that appears",
@@ -370,7 +365,7 @@ formatter.match({
   "location": "DeleteWarehouse_Steps.manager_clicks_on_Action_dropdown()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "Manager selects Delete option",
@@ -380,7 +375,7 @@ formatter.match({
   "location": "DeleteWarehouse_Steps.manager_selects_Delete_option()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "Manager confirms deletion",
@@ -390,7 +385,7 @@ formatter.match({
   "location": "DeleteWarehouse_Steps.manager_confirms_deletion()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "Manager should see an Odoo Server Error window popup",
@@ -400,9 +395,8 @@ formatter.match({
   "location": "DeleteWarehouse_Steps.manager_should_see_an_Odoo_Server_Error_window_popup()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
-formatter.embedding("image/png", "embedded1.png");
 formatter.after({
   "status": "passed"
 });
