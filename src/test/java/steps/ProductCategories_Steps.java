@@ -19,6 +19,7 @@ public class ProductCategories_Steps {
     public void manager_clicks_Products_Categories() {
         inventoryPage.productCategories.click();
     }
+
     @And("Manager clicks Create button")
     public void manager_clicks_Create_button() {
         inventoryPage.productCategoryCreateButton.click();
