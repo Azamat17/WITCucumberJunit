@@ -13,7 +13,6 @@ import org.junit.runner.RunWith;
         tags = "@smoke",
         dryRun = false
 
-
 )
 
 public class Runner {

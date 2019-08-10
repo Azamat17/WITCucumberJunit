@@ -11,7 +11,10 @@ public class InventoryPage {
     public InventoryPage(){
         PageFactory.initElements(Driver.getDriver(), this);
     }
-    @FindBy(xpath = "//a[@href='/web#menu_id=351&action=']")
+//    @FindBy(xpath = "//a[@href='/web#menu_id=351&action=']")
+//    public WebElement products;
+
+    @FindBy(linkText = "Products")
     public WebElement products;
 
     @FindBy(xpath = "//a[@href='/web#menu_id=354&action=232']")
