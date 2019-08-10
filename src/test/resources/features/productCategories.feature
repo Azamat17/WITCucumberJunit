@@ -1,6 +1,6 @@
 Feature: BriteERP Inventory Functionality
 
-  @productCategories
+  @productCategories @smoke
   Scenario: Create Product Categories as a manager
 
     Given Manager navigates to Products under Configuration and clicks
