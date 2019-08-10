@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0e5b63e6-59b7-4a6a-b0ac-1f60d74174cc" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/WarehousesPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/WarehousesPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/steps/DeleteWarehouse_Steps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/DeleteWarehouse_Steps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/Waits.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/Waits.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber/embedded0.png" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber/embedded0.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/cucumber/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber/report.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/report.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/report.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/features/discardScrapOrdersCreation.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/discardScrapOrdersCreation.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/features/productCategories.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/productCategories.feature" afterDir="false" />
-    </list>
+    <list default="true" id="0e5b63e6-59b7-4a6a-b0ac-1f60d74174cc" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -147,7 +137,14 @@
       <option name="project" value="LOCAL" />
       <updated>1565393959719</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Warehouse Management update">
+      <created>1565395805245</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1565395805245</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -164,7 +161,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Inventory page update" />
     <MESSAGE value="jenkins update" />
-    <option name="LAST_COMMIT_MESSAGE" value="jenkins update" />
+    <MESSAGE value="Warehouse Management update" />
+    <option name="LAST_COMMIT_MESSAGE" value="Warehouse Management update" />
   </component>
   <component name="masterDetails">
     <states>
