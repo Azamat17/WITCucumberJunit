@@ -6,8 +6,8 @@
         "before": [
           {
             "result": {
-              "duration": 7307731177,
-              "status": "passed"
+              "duration": 321000,
+              "status": "skipped"
             },
             "match": {
               "location": "Hooks.login()"
@@ -15,14 +15,14 @@
           }
         ],
         "line": 4,
-        "name": "Discard Scrap Orders Creation as a manager",
+        "name": "Changing values in General Info when creating product",
         "description": "",
-        "id": "briteerp-inventory-functionality;discard-scrap-orders-creation-as-a-manager",
+        "id": "general-info-in-product-creation;changing-values-in-general-info-when-creating-product",
         "after": [
           {
             "result": {
-              "duration": 84605847,
-              "status": "passed"
+              "duration": 3300,
+              "status": "skipped"
             },
             "match": {
               "location": "Hooks.tearDown(Scenario)"
@@ -34,71 +34,119 @@
         "steps": [
           {
             "result": {
-              "duration": 178514158,
-              "status": "passed"
+              "status": "undefined"
             },
-            "line": 5,
-            "name": "Manger navigates to Scrap and clicks",
-            "match": {
-              "location": "DiscardScrap_Steps.manger_navigates_to_Scrap_and_clicks()"
-            },
+            "line": 6,
+            "name": "Manager clicks on Products tab",
+            "match": {},
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 2313108194,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "Manager clicks Create button_",
-            "match": {
-              "location": "DiscardScrap_Steps.manager_clicks_Create_button_()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 355480417,
-              "status": "passed"
+              "status": "undefined"
             },
             "line": 7,
-            "name": "Manager clicks Discard button",
-            "match": {
-              "location": "DiscardScrap_Steps.manager_clicks_Discard_button()"
-            },
+            "name": "Manager clicks on Create button",
+            "match": {},
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 34808339,
-              "status": "passed"
+              "status": "undefined"
             },
             "line": 8,
-            "name": "Manager sees \"Scrap Orders\" in main header",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Scrap Orders\"",
-                  "offset": 13
-                }
-              ],
-              "location": "DiscardScrap_Steps.manager_sees_in_main_header(String)"
+            "name": "Manager enters AAA Title in Product Name textbox",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
             },
+            "line": 9,
+            "name": "Manager setsProduct Type to Consumable",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 10,
+            "name": "Manager sets Catagory to All / Artistic",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 11,
+            "name": "Manager enters Int Reference in Internal Reference textbox",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 12,
+            "name": "Manager enters #0093215 in Barcode textbox",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 13,
+            "name": "Manager sets Sales Price to 100",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 14,
+            "name": "Manager sets Cost to 75",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 15,
+            "name": "Manager clicks on Save Button",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 16,
+            "name": "Manager should see an error popup",
+            "match": {},
             "keyword": "Then "
           }
         ],
         "tags": [
           {
-            "name": "@discardScrap"
+            "name": "@productCreation"
+          },
+          {
+            "name": "@smoke"
           }
         ]
       }
     ],
-    "name": "BriteERP Inventory Functionality",
+    "name": "General Info in product creation",
     "description": "",
-    "id": "briteerp-inventory-functionality",
+    "id": "general-info-in-product-creation",
     "keyword": "Feature",
-    "uri": "src/test/resources/features/discardScrapOrdersCreation.feature",
+    "uri": "src/test/resources/features/productCreation.feature",
     "tags": []
   }
 ]

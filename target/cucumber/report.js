@@ -1,63 +1,114 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("src/test/resources/features/discardScrapOrdersCreation.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("src/test/resources/features/productCreation.feature");
 formatter.feature({
-  "name": "BriteERP Inventory Functionality",
+  "name": "General Info in product creation",
   "description": "",
   "keyword": "Feature"
 });
 formatter.scenario({
-  "name": "Discard Scrap Orders Creation as a manager",
+  "name": "Changing values in General Info when creating product",
   "description": "",
   "keyword": "Scenario",
   "tags": [
     {
-      "name": "@discardScrap"
+      "name": "@productCreation"
+    },
+    {
+      "name": "@smoke"
     }
   ]
 });
 formatter.before({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.step({
-  "name": "Manger navigates to Scrap and clicks",
+  "name": "Manager clicks on Products tab",
   "keyword": "Given "
 });
-formatter.match({
-  "location": "DiscardScrap_Steps.manger_navigates_to_Scrap_and_clicks()"
-});
+formatter.match({});
 formatter.result({
-  "status": "passed"
+  "status": "undefined"
 });
 formatter.step({
-  "name": "Manager clicks Create button_",
+  "name": "Manager clicks on Create button",
   "keyword": "And "
 });
-formatter.match({
-  "location": "DiscardScrap_Steps.manager_clicks_Create_button_()"
-});
+formatter.match({});
 formatter.result({
-  "status": "passed"
+  "status": "undefined"
 });
 formatter.step({
-  "name": "Manager clicks Discard button",
+  "name": "Manager enters AAA Title in Product Name textbox",
   "keyword": "And "
 });
-formatter.match({
-  "location": "DiscardScrap_Steps.manager_clicks_Discard_button()"
-});
+formatter.match({});
 formatter.result({
-  "status": "passed"
+  "status": "undefined"
 });
 formatter.step({
-  "name": "Manager sees \"Scrap Orders\" in main header",
+  "name": "Manager setsProduct Type to Consumable",
+  "keyword": "And "
+});
+formatter.match({});
+formatter.result({
+  "status": "undefined"
+});
+formatter.step({
+  "name": "Manager sets Catagory to All / Artistic",
+  "keyword": "And "
+});
+formatter.match({});
+formatter.result({
+  "status": "undefined"
+});
+formatter.step({
+  "name": "Manager enters Int Reference in Internal Reference textbox",
+  "keyword": "And "
+});
+formatter.match({});
+formatter.result({
+  "status": "undefined"
+});
+formatter.step({
+  "name": "Manager enters #0093215 in Barcode textbox",
+  "keyword": "And "
+});
+formatter.match({});
+formatter.result({
+  "status": "undefined"
+});
+formatter.step({
+  "name": "Manager sets Sales Price to 100",
+  "keyword": "And "
+});
+formatter.match({});
+formatter.result({
+  "status": "undefined"
+});
+formatter.step({
+  "name": "Manager sets Cost to 75",
+  "keyword": "And "
+});
+formatter.match({});
+formatter.result({
+  "status": "undefined"
+});
+formatter.step({
+  "name": "Manager clicks on Save Button",
+  "keyword": "And "
+});
+formatter.match({});
+formatter.result({
+  "status": "undefined"
+});
+formatter.step({
+  "name": "Manager should see an error popup",
   "keyword": "Then "
 });
-formatter.match({
-  "location": "DiscardScrap_Steps.manager_sees_in_main_header(String)"
-});
+formatter.match({});
 formatter.result({
-  "status": "passed"
+  "status": "undefined"
 });
 formatter.after({
-  "status": "passed"
+  "status": "skipped"
 });
 });
