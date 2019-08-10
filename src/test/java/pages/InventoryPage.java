@@ -59,7 +59,20 @@ public class InventoryPage {
     @FindBy(xpath = "(//li[@class='active'])[3]")
     public WebElement scrapOrdersHeader;
 
+    //Aziza's part
 
+
+    @FindBy(xpath = "(//a[@class='oe_menu_toggler'])[3]")
+    public WebElement inventoryTab;
+
+    @FindBy(xpath = "/html/body/div[1]/div[1]/div[1]/div[6]/ul[1]/li[1]/a/span")
+    public WebElement transfersTab;
+
+    @FindBy(xpath = "//button[@class='btn btn-sm btn-default o_button_import']")
+    public WebElement importTab;
+
+    @FindBy(xpath = "//button[@class='btn btn-sm btn-default o_import_cancel']")
+    public WebElement cancelButton;
 
 
 
