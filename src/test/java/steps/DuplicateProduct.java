@@ -5,7 +5,6 @@ import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import pages.InventoryPage;
 import pages.ProductsPage;
-import pages.WarehousesPage;
 
 public class DuplicateProduct {
 
@@ -35,7 +34,7 @@ public class DuplicateProduct {
 
     @And("Manager sets Category to All_Artistic")
     public void manager_sets_Category_to_All_Artistic() {
-        productsPage.Catagory.click();
+        productsPage.Category.click();
         productsPage.All_Artistic.click();
     }
 

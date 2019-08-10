@@ -24,7 +24,7 @@ public class ProductsPage {
     public WebElement Consumable;
 
     @FindBy (xpath = "//input[@class='o_input ui-autocomplete-input']")
-    public WebElement Catagory;
+    public WebElement Category;
 
     @FindBy (xpath = "//a[contains(text(),'All / Artistic')]")
     public WebElement All_Artistic;
